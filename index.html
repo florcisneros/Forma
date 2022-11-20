@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/isotipo-forma.svg" />
+    <title>Forma</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="mobile__container">
+      <header class="header">
+        <nav class="navbar">
+          <div class="navbar__menu" id="navbar" onclick="openNavbar()">
+            <button type="button"><img src="../img/menu--icon.svg" alt="Menú"></button>
+            <nav class="navbar__menu--on">
+              <ul class="navbar--title">
+                <li>
+                  <a href="">Forma</a>
+                </li>
+              </ul>
+              <div class="separator"></div>
+              <ul class="navbar--list">
+                <li class="list--house">
+                  <a href="inicio.html">Inicio</a>
+                </li>
+                <li class="list--user">
+                  <a href="">Mi cuenta</a>
+                </li>
+                <li class="list--fav">
+                  <a href="">Favoritos</a>
+                </li>
+              </ul>
+              <ul class="navbar--logout">                
+              <div class="separator"></div>
+                <li>
+                  <a href="login.html">Cerrar sesión</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="navbar__title"><h1>Forma</h1></div>
+        </nav>
+      </header>
+      <main class="main" id="main" onclick="closeNavbar()">
+        <h2 class="text__saludo">¡Hola!</h2>
+        <h3 class="text__material">Escanea tu material y obtén más información</h3>
+        <div class="banner__escanear">
+          <a class="link" href="modal-camara.html" role="button">Escanear</a>
+        </div>
+
+        <h3 class="text__ubicacion">¿No sabes dónde llevar tu material?</h3>
+        <p class="text__buscarcentro">Busca un centro de reciclado</p>
+        <div class="banner__mapa">
+          <a class="link-centros" href="buscar-centros.html" role="button">Buscar centro</a>
+        </div>
+
+        <h3 class="text__info">Si estás buscando información de un material, ingresá a nuestras categorías:</h3>
+        <ul class="categories">
+          <li class="categories__item">
+            <a class="link__circle" href="#">
+              <img src="img/categoria-pilas.svg">
+              <p>Pilas</p>
+            </a> 
+          </li>
+          <li class="categories__item">
+            <a class="link__circle" href="info-materiales-plastico.html">
+            <img src="img/categoria-plastico.svg">
+            <p>Plástico</p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="link__circle" href="#">
+            <img src="img/categoria-vidrio.svg">
+            <p>Vidrio</p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="link__circle" href="#">
+            <img src="img/categoria-papel.svg">
+            <p>Papel</p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="link__circle" href="info-materiales.html">
+            <img src="img/categoria-vermas.png">
+            <p>Ver todas</p>
+            </a>
+          </li>
+        </ul>
+
+        <div class="banner__gana">
+          <div class="text__gana">
+            <h3>¡Recicla y Gana!</h3>
+            <p>Acumula puntos y canjea beneficios.</p>
+          </div>
+          <a class="link" href="#" role="button">Empezar</a>
+        </div>
+      </main>
+      
+      <footer class="footer">
+        <div class="footer__main">          
+          <div class="footer__links">
+            <ul>
+              <li>
+                <a href="info-materiales.html" >
+                  <img src="img/recycle.svg" alt="">
+                  <p>Info residuos</p>
+                </a>
+              </li>
+              <li>
+                <a href="modal-camara.html" role="button">
+                  <div class="camera">Escanear</div>
+                </a>
+              </li>
+              <li>
+                <a href="buscar-centros.html">
+                  <img src="img/map.svg" alt="">
+                  <p>Buscar centros</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

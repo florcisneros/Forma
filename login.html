@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/isotipo-forma.svg" />
+    <title>Bienvenidos a Forma</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap JS -->
+    <script defer src="js/bootstrap.min.js"></script>
+  </head>
+  <body class="body--login">
+    <div class="mobile__container">
+      <main class="main" id="main">
+        <div class="login__header">
+          <img class="logo__forma" src="img/logo-forma.png" alt="">
+        </div>
+        <form class="login__form">
+          <div class="form--email">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="Escribir e-mail" required>
+          </div>
+          <div class="form--password">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Escribir contraseña" required>
+          </div>
+        </form>
+        <a class="button__login" href="onboarding.html" role="button">Iniciar sesión</a>      
+        <a class="button__reset" href="#" role="button"> Olvidé mi contraseña </a>
+        
+        <div class="social__icons">
+          <a class="icon__google" href="#"><img src="img/boton-google.png" alt="Acceder con Google" ></a>
+          <a class="icon__facebook" href="#"><img src="img/boton-fb.png" alt="Acceder con Facebook"></a>
+        </div>       
+      </main>
+    </div>
+  </body>
+</html>
