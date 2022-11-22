@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    background-color: #5EA466;
+    background-color: #498350;
     color: #FFFFFF;
     height: 5.6rem;
 }
@@ -245,7 +245,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 1.6rem;
-    margin-bottom: 2.9rem;
+    margin-bottom: 4rem;
 }
 
 .categories__item .link__circle {
@@ -275,6 +275,11 @@ h1 {
     padding-top: 1.9rem;
     max-width: 50%;
     margin-left: 16.4rem;
+}
+
+.text__gana h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .text__gana h3 {
@@ -308,6 +313,7 @@ input {
 }
 
 
+
 .button__login, .button__iniciar {
     display: flex;
     justify-content: center;
@@ -328,7 +334,7 @@ input {
     position: sticky;
     bottom: 0;
     height: 5.4rem;
-    background-color: #5EA466; 
+    background-color: #498350; 
 }
 
 .footer__main {
@@ -902,11 +908,43 @@ button img,
     font-size: 13px;
     font-weight: 400;
 }
-.info__container__unit {
-  margin-bottom: 12px;
-}
-  
 
+.info-reciclaje {
+    display: flex;
+}
+
+.info-reutilizar {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 5rem;
+}
+
+.text__reutilizar {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+    
+.reutilizar__tutoriales .info-reciclaje {
+    width: 7.5rem;
+    margin: .4rem .3rem;
+    border-radius: .4rem;
+}
+
+.info-reciclaje .descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.reutilizar__tutoriales .descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #000000;
+}
 
 
 /* ========== CATEGORIAS MATERIALES ========== */
@@ -990,7 +1028,7 @@ button img,
 
 .centros__reciclaje--location .location--text {
     height: 1.4rem;
-    color: rgb(1, 90, 94, 50%);
+    color: #000000;
     background-image: url(../img/location.svg);
     background-repeat: no-repeat;
     background-size: 1.4rem;
@@ -1061,6 +1099,8 @@ button img,
 
     .body--resultadoscan .button__container {
         text-align: center;
+        position: fixed;
+        width: 100%;
     }
 }
 

@@ -19,23 +19,23 @@
     <div class="mobile__container">
       <main class="main" id="main">
         <div class="login__header">
-          <img class="logo__forma" src="img/logo-forma.png" alt="">
+          <img class="logo__forma" src="img/logo-forma.png" alt="Forma">
         </div>
         <form class="login__form">
           <div class="form--email">
-            <label for="email">E-mail</label>
-            <input type="text" id="email" name="email" placeholder="Escribir e-mail" required>
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" name="email" placeholder="Escribir e-mail" required="true">
           </div>
           <div class="form--password">
-            <label for="contrasena">Contraseña</label>
-            <input type="password" id="contrasena" name="contrasena" placeholder="Escribir contraseña" required>
+            <label for="contrasena">Contraseña*</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Escribir contraseña" required="true">
           </div>
-        </form>
-        <a class="button__login" href="onboarding.html" role="button">Iniciar sesión</a>      
+          <input class="button__login" type="submit" value="Iniciar sesión" onclick="window.location.href='onboarding.html';">
+        </form>    
         <a class="button__reset" href="#" role="button"> Olvidé mi contraseña </a>
         
         <div class="social__icons">
-          <a class="icon__google" href="#"><img src="img/boton-google.png" alt="Acceder con Google" ></a>
+          <a class="icon__google" href="#"><img src="img/boton-google.png" alt="Acceder con Google"></a>
           <a class="icon__facebook" href="#"><img src="img/boton-fb.png" alt="Acceder con Facebook"></a>
         </div>       
       </main>
