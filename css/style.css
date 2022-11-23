@@ -241,6 +241,10 @@ h1 {
     font-weight: 500;
 }
 
+.ir-a-mapa_link {
+    color: #FFFFFF;
+}
+
 .categories {
     display: flex;
     justify-content: space-between;
@@ -329,6 +333,10 @@ input {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+.button__iniciar-link {
+    color: #FFFFFF;
+} 
 
 .footer {
     position: sticky;
@@ -532,14 +540,14 @@ input {
     margin-top: 2.4rem;
 }
 
+.link--scan-button {
+    color: #FFFFFF;
+}
+
 /* ========== RESULTADO SCAN ========== */
 
 .body--resultadoscan .mobile__container {
     overflow: hidden;
-}
-
-.body--resultadoscan .navbar__menu--home  {
-    text-indent: -9999px;
 }
 
 .body--resultadoscan .navbar__menu--home, 
@@ -725,6 +733,7 @@ button img,
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    background-color: #FFFFFF;
 }
 .mobile__container__material {
     background-color: white;
@@ -765,6 +774,10 @@ button img,
     border-color: #015A5E;
     border-width: 1px;
     cursor: pointer;
+}
+
+.item__button_moreinfo-link {
+    color: #FFFFFF;
 }
 
 /* ========== ACCORDION ========== */
